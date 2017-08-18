@@ -1,5 +1,6 @@
 
 class Dog
+  puts 'hey'
   def initialize(breed, name)
     # Instance variables
     @breed = breed
