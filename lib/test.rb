@@ -1,17 +1,23 @@
+class Brain
+  def initialize
 
-class Dog
-  puts 'hey'
-  def initialize(breed, name)
-    # Instance variables
-    @breed = breed
-    @name = name
+    puts 'hey'
+    sleep 1
+    puts "hi new person, what/'s you name?"
+    #todo create universal brain storage based on topic
+   # @name = gets.chomp
+    @name = 'jim'
+    @interests = {}
+    p @name
+    p 'well nice to meet you'
+    p data_dump
   end
 
-  def bark
-    puts 'Ruff! Ruff!'
-  end
 
-  def display
-    puts "I am of #{@breed} breed and my name is #{@name}"
+  def data_dump
+    p @name
+    p @interests
   end
 end
+
+b = Brain.new
