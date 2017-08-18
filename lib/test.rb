@@ -1,16 +1,21 @@
 class Brain
   def initialize
 
-    puts 'hey'
-    sleep 1
-    puts "hi new person, what/'s you name?"
-    #todo create universal brain storage based on topic
-   # @name = gets.chomp
+    puts 'hey, who\'s this?'
+    # check file for users
+    # @name = gets.chomp
     @name = 'jim'
     @interests = {}
-    p @name
+    p @name                                                             
     p 'well nice to meet you'
     p data_dump
+
+    initiate_first_run
+  end
+
+  def initiate_first_run
+
+    #todo create universal brain storage based on topic
   end
 
 
