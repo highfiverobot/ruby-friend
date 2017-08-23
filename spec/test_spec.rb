@@ -1,8 +1,11 @@
+require 'rubygems'
 require 'rspec'
+require 'spec_helper'
+
 
 
 describe 'testy' do
   it 'ok' do
-  1.should == 1
+    expect(1).to eq(2)
   end
 end

@@ -1,3 +1,8 @@
+require 'rubygems'
+require 'rspec'
+
+expect(1).to eq(2)
+
 class Brain
   def initialize
     hexes = ['fd 99 78 20 05 ba c1 b7 50 2a',
@@ -48,3 +53,4 @@ class Brain
 end
 
 b = Brain.new
+
