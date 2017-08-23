@@ -12,3 +12,12 @@ class HexGenerator
   end
 
 end
+x = HexGenerator.new
+
+big_hex = []
+16.times { |i| 8.times { |n| big_hex << x.get_full_hex }
+}
+
+
+
+p big_hex
